@@ -87,8 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-header{ 
-  }
+
 
 header>div {
 display: flex;
@@ -125,6 +124,10 @@ nav>ul>li{
   flex-wrap: wrap;
 }
 
+.flexfoot {
+  display: flex;
+  background-color: khaki;
+}
 
 #my-image {
   width: 40vh;
@@ -139,7 +142,7 @@ nav>ul>li{
 
 .produit1 {
   border: solid 1px;
-  height: 64vh;
+  height: 65vh;
   width: 100%;
 }
 .produit2 {
@@ -168,16 +171,28 @@ main>div>article>img {
 main>div>article>span{
   position: absolute;
   top: 22em;
-  
+  margin: 5px;
 }
 
-article {
+article{
   position: relative;
 }
 
+footer{
+  display:flex
+}
+
+footer>div>ul {
+  background-color: red;
+}
 
 
-
+.icon{
+  display: inline;
+  background-color: lawngreen;
+  margin-left: 15vh;
+  margin-top: 7vh;
+}
 
 
 /* ==========================================================================
