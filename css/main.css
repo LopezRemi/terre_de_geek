@@ -87,6 +87,99 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header{ 
+  }
+
+header>div {
+display: flex;
+background-color: red;
+height: 12vh;
+justify-content: center;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  background-color: seagreen;
+  height: 5vh;
+}
+
+nav>ul{
+  justify-content: center;
+  align-content: center;
+  margin-top: 1%;
+}
+
+nav>ul>li{
+  display: inline;
+  align-content: center;
+  padding-left: 4vh;
+}
+
+.container {
+  display: flex;
+  background-color: violet;
+  flex-wrap: wrap;
+}
+
+
+#my-image {
+  width: 40vh;
+  height: 40vh;
+}
+
+#myhero{
+  width: 60%;
+  position :absolute;
+  top: 96%;
+}
+
+.produit1 {
+  border: solid 1px;
+  height: 64vh;
+  width: 100%;
+}
+.produit2 {
+  border: solid 1px;
+  height: 64vh;
+  width: 100%;
+}
+.produit3 {
+  border: solid 1px;
+  height: 70vh;
+  width: 100%;
+}
+.produit4 {
+  border: solid 1px;
+  height: 70vh;
+  width: 100%;
+}
+
+main>div>article>img {
+  position: absolute;
+  border: solid px;
+  right: 0;
+  top: 120%;
+}
+
+main>div>article>span{
+  position: absolute;
+  top: 22em;
+  
+}
+
+article {
+  position: relative;
+}
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
