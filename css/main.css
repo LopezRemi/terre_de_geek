@@ -155,13 +155,14 @@ main {
   background-color: #e3b505;
 }
 
-#my-image {
+.my-image {
   width: 20vh;
   height: 40vh;
   margin-right: 10vh;
 }
 
-#myhero{
+
+.myhero{
   width: 60%;
   position :absolute;
   top: 96%;
