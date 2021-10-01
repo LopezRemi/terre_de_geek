@@ -90,7 +90,9 @@ textarea {
    
 header>div {
 display: flex;
-background-color: #db504a;
+background-image: url("https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg");
+background-size: contain;
+background-size: cover;
 height: 20vh;
 justify-content: center;
 }
@@ -98,9 +100,8 @@ justify-content: center;
 h1{
   align-content: center;
   font-family: 'Rampart One', cursive;
-  
   font-size: 7vh;
-  
+color: whitesmoke;
 }
 
 h2{
@@ -209,6 +210,13 @@ main>div>article>span{
   box-shadow: 2px 2px 3px 2px black;
 }
 
+.qui{
+  font-family: 'Frijole', cursive;
+}
+
+.contact{
+  width: 100%;
+}
 
 article{
   position: relative;
