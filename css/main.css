@@ -87,51 +87,77 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
+   
 header>div {
 display: flex;
-background-color: red;
-height: 12vh;
+background-color: #db504a;
+height: 20vh;
 justify-content: center;
 }
 
 h1{
-  text-align: center;
+  align-content: center;
+  font-family: 'Rampart One', cursive;
+  
+  font-size: 7vh;
+  
 }
+
+h2{
+  text-align: center;
+  color: #0E1C36;
+  font-family: 'Bangers', cursive;
+}
+
 
 nav{
   display: flex;
-  background-color: seagreen;
-  height: 5vh;
+  height: 6vh;
 }
 
-nav>ul{
-  justify-content: center;
-  align-content: center;
-  margin-top: 1%;
+nav>div{
+display: flex;
 }
 
-nav>ul>li{
-  display: inline;
+
+.button{
+  height: 6vh;
+  width: 7.8EM;
+  margin-top: 0%;
   align-content: center;
-  padding-left: 4vh;
+  background-color: #e3b505;
 }
+
+header>nav>div>button>a {
+  text-decoration: none;
+  font-family: 'Bangers', cursive;
+  font-size: 2VH;
+  color: #000;
+
+}
+
 
 .container {
   display: flex;
-  background-color: violet;
+  background-color: white;
   flex-wrap: wrap;
+}
+
+main {
+  background-image: url("https://agrinova.ma/wp-content/uploads/2020/01/Background-website-01.jpg");
+  background-size: cover;
+  background-size: contain;
 }
 
 .flexfoot {
   display: flex;
-  background-color: khaki;
+  background-color: #e3b505;
 }
 
 #my-image {
-  width: 40vh;
+  width: 20vh;
   height: 40vh;
+  margin-right: 10vh;
 }
 
 #myhero{
@@ -142,7 +168,7 @@ nav>ul>li{
 
 .produit1 {
   border: solid 1px;
-  height: 65vh;
+  height: 75vh;
   width: 100%;
 }
 .produit2 {
@@ -152,7 +178,7 @@ nav>ul>li{
 }
 .produit3 {
   border: solid 1px;
-  height: 70vh;
+  height: 77vh;
   width: 100%;
 }
 .produit4 {
@@ -161,18 +187,28 @@ nav>ul>li{
   width: 100%;
 }
 
-main>div>article>img {
+main>div>article>a>img {
   position: absolute;
-  border: solid px;
   right: 0;
   top: 120%;
+  
 }
+
+main>div>article>p {
+  font-family: 'Ceviche One', cursive;
+  font-size: 1.2EM;
+  }
 
 main>div>article>span{
   position: absolute;
   top: 22em;
   margin: 5px;
+  font-family: 'Frijole', cursive;
+  font: bold;
+  background: white;
+  box-shadow: 2px 2px 3px 2px black;
 }
+
 
 article{
   position: relative;
@@ -182,14 +218,14 @@ footer{
   display:flex
 }
 
-footer>div>ul {
-  background-color: red;
+footer>div>ul>li {
+  font-family: 'Bangers', cursive;
+  font-size: 1em ;
 }
-
 
 .icon{
   display: inline;
-  background-color: lawngreen;
+  background-color:  "";
   margin-left: 15vh;
   margin-top: 7vh;
 }
