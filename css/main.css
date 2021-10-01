@@ -87,6 +87,159 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   
+header>div {
+display: flex;
+background-image: url("https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg");
+background-size: contain;
+background-size: cover;
+height: 20vh;
+justify-content: center;
+}
+
+h1{
+  align-content: center;
+  font-family: 'Rampart One', cursive;
+  font-size: 7vh;
+color: whitesmoke;
+}
+
+h2{
+  text-align: center;
+  color: #0E1C36;
+  font-family: 'Bangers', cursive;
+}
+
+
+nav{
+  display: flex;
+  height: 6vh;
+}
+
+nav>div{
+display: flex;
+}
+
+
+.button{
+  height: 6vh;
+  width: 7.8EM;
+  margin-top: 0%;
+  align-content: center;
+  background-color: #e3b505;
+}
+
+header>nav>div>button>a {
+  text-decoration: none;
+  font-family: 'Bangers', cursive;
+  font-size: 2VH;
+  color: #000;
+
+}
+
+
+.container {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+main {
+  background-image: url("https://agrinova.ma/wp-content/uploads/2020/01/Background-website-01.jpg");
+  background-size: cover;
+  background-size: contain;
+}
+
+.flexfoot {
+  display: flex;
+  background-color: #e3b505;
+}
+
+.my-image {
+  width: 20vh;
+  height: 40vh;
+  margin-right: 10vh;
+}
+
+
+.myhero{
+  width: 60%;
+  position :absolute;
+  top: 96%;
+}
+
+.produit1 {
+  border: solid 1px;
+  height: 75vh;
+  width: 100%;
+}
+.produit2 {
+  border: solid 1px;
+  height: 64vh;
+  width: 100%;
+}
+.produit3 {
+  border: solid 1px;
+  height: 77vh;
+  width: 100%;
+}
+.produit4 {
+  border: solid 1px;
+  height: 70vh;
+  width: 100%;
+}
+
+main>div>article>a>img {
+  position: absolute;
+  right: 0;
+  top: 120%;
+  
+}
+
+main>div>article>p {
+  font-family: 'Ceviche One', cursive;
+  font-size: 1.2EM;
+  }
+
+main>div>article>span{
+  position: absolute;
+  top: 22em;
+  margin: 5px;
+  font-family: 'Frijole', cursive;
+  font: bold;
+  background: white;
+  box-shadow: 2px 2px 3px 2px black;
+}
+
+.qui{
+  font-family: 'Frijole', cursive;
+}
+
+.contact{
+  width: 100%;
+}
+
+article{
+  position: relative;
+}
+
+footer{
+  display:flex
+}
+
+footer>div>ul>li {
+  font-family: 'Bangers', cursive;
+  font-size: 1em ;
+}
+
+.icon{
+  display: inline;
+  background-color:  "";
+  margin-left: 15vh;
+  margin-top: 7vh;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
