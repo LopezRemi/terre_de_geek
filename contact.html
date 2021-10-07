@@ -26,23 +26,58 @@
 <body>
 
   <!--#################Header##################-->
-<header>
-  <div>
-    <h1>Terre de Geek</h1>
-  </div>
-  <nav>
-    <div>
-      <button class=button><a href="index.html">Acceuil</a></button>
-      <button class=button><a href="Qui_sommes-nous.html">Qui sommes-nous ?</a></button>
-      <button class=button><a href="contact.html">contact</a></button>
+  <header>
+    <div class="flex">
+      <img class="grey rotate" src="img/vache.png" alt="logo vache">
+      <h1>Terre de Geek
+      <p id="pheader">La tech en MIEUUUUH</p>
+      </h1>
     </div>
-  </nav>
-</header>
+      
+    <nav>
+      <div>
+        <button class=button><a href="index.html">Acceuil</a></button>
+        <button class=button><a href="Qui_sommes-nous.html">Qui sommes-nous ?</a></button>
+        <button class=button><a href="contact.html">contact</a></button>
+      </div>
+    </nav>
+  </header>
 
 <!--#################Main##################-->
 
-<main>
-    <img class="contact" src="img/contactus.jpg" alt="contact">
+<main class="contact">
+  <form action="serveur" method="post">
+    <div>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="age">Age :</label>
+    <input type="number" id="number" name="user_age">
+  </div>
+  <div>
+    <label for="telephone">Téléphone :</label>
+    <input type="number" id="tel" name="user_tel">
+</div>
+  <div>
+      <label for="mail">e-mail :</label>
+      <input type="email" id="mail" name="user_mail">
+  </div>
+  <select name="objet" id="objet-select">
+    <option value="">--Objet du contact--</option>
+    <option value="information">Information</option>
+    <option value="cat">Réclamation</option>
+    <option value="hamster">Partenariat</option>
+    <option value="hamster">Autre</option>
+  </select>
+  <div>
+      <label for="msg">Message :</label>
+      <textarea id="msg" name="user_message"></textarea>
+  </div>
+  <div class="fbutton">
+    <button type="submit">Envoyer le message</button>
+</div>
+  </form>
 </main>
 
 <!--#################Footer##################-->
