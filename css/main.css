@@ -259,15 +259,21 @@ main>div>article>span{
   box-shadow: 2px 2px 3px 2px black;
 }
 
-
-
 .qui{
   font-family: 'Frijole', cursive;
 }
 
-.contact{
-  width: 100%;
+
+.video{
+  display: flex; 
+  align-self: center;
+  width: 80vw;
 }
+
+.contact{
+  display: flex;
+  flex-direction: column;
+ }
 
 article{
   position: relative;
@@ -361,6 +367,11 @@ ul{
   .mention{
   margin-top: 2em;
   }
+}
+
+.video{
+  height: 40vh;
+  width: 80vw;
 }
 
 @media screen and (min-width: 1024px) {
@@ -458,6 +469,13 @@ font-size: 130%;
 
 .container{
   justify-content: space-around;
+}
+
+.video{
+  height: 50vh;
+  width: 70vw;
+}
+
 }
 
 
