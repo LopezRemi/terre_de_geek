@@ -103,9 +103,12 @@ textarea {
   display: flex;
 }   
    
-main{
-  
-  margin: 5%;
+.pmain {
+  margin: 2em;
+}
+
+.pricemain{
+  margin: 2em;
 }
 
 header>div {
@@ -129,7 +132,7 @@ margin: 2%;
 h1{
   align-content: center;
   font-family: 'Rampart One', cursive;
-  font-size: 7vh;
+  font-size: 5vh;
 color: rgb(0, 0, 0);
 }
 
@@ -305,6 +308,11 @@ ul{
 
 @media screen and (min-width: 510px) {
 
+
+  h1{
+    font-size: 7vh;
+  }
+
   footer{
     justify-content: space-between;
   }
@@ -357,25 +365,38 @@ ul{
 
 @media screen and (min-width: 1024px) {
 
+
+
   .grey{
+    max-width:200px ;
   width:  20vw;
-  
+  }
+
+  h1{
+    font-size: 8vh;
   }
 
 
 .my-image1 {
-    margin-right: 25vw;
+  width: auto;
+  height: 27vh;
+  margin-right: 24%;
+  margin-top: 1.1em;
   }
 
   .my-image2 {
-    margin-right: 25vw;
+    
+    width: auto;
+    height: 27vh;
+    margin-right: 23%;
+    margin-top: 1em;
   }
 
   .my-image3 {
-    width: 35vh;
-    height: 40vh;
-    margin-right: 20vW;
-    margin-top: 10vh;
+    width: 25vw;
+    height: auto;
+  margin-top:2vh;
+  margin-right: 1rem;
   }
 
   main{
@@ -389,15 +410,54 @@ ul{
 
     .button{
     height: 8vh;
-    width: 33.1vw;
+    width: 33vw;
   }
 
   nav{
-    
     height: 8vh;
-    
+   display: flex;
+   justify-content: space-around;
   }
 
+  header {
+    margin: 0%;
+    }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+  }
+
+  .produit1{
+    margin: 1%;
+    width: 30%;
+    height: 60vh;
+    border: solid;
+  }
+  .produit2{
+    margin: 1%;
+    width: 30%;
+    height: 60vh;
+    border: solid;
+  }
+  .produit3{
+    margin: 1%;
+    border: solid;
+    width: 30%;
+    height: 60vh;
+  }
+
+.pricemain{
+  margin-top: 16vh;
+}
+
+.pmain {
+font-size: 130%;
+}
+
+.container{
+  justify-content: space-around;
 }
 
 
