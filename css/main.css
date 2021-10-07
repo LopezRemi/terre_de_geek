@@ -423,7 +423,8 @@ select{
 
   .icon{
   margin-top: 3em;
-  margin-right: 2em;
+  margin-right: 1em;
+
   }
 
   header>div {
@@ -459,7 +460,7 @@ select{
   height: 10%;
   margin-top: 2em;
   margin-bottom: 2em;
-  margin-left: 7em;
+  margin-left: 6em;
   }
 
   .mention{
@@ -577,6 +578,10 @@ font-size: 130%;
 .video{
   height: 50vh;
   width: 70vw;
+}
+
+.icon{
+  margin-top: 6%;
 }
 
 }
